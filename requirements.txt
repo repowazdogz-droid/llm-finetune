@@ -1,0 +1,14 @@
+# Floor B0 (this repo, CPU only) — exact pins, resolved 2026-08-02 on
+# macOS 15.7.3 arm64 / CPython 3.12.13.
+#
+# B0 builds the dataset and the evaluation harness. It deliberately has NO
+# torch, NO transformers, and NO CUDA dependency: nothing in this floor loads a
+# model, and adding those packages here would make it possible to do so by
+# accident. The harness is model-agnostic by construction — it takes a
+# generate-function and never imports an inference library.
+#
+# The GPU phase (B1/B2) runs on a different machine and pins its own
+# dependencies there, against that machine's CUDA version. Pinning them here
+# would be pinning against hardware this repo has never seen.
+numpy==2.5.1
+pytest==9.1.1

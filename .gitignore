@@ -1,0 +1,35 @@
+# virtualenvs
+.venv/
+venv/
+env/
+
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# data — regenerate with data/download.sh + data/prepare.py, never commit
+data/raw/
+data/processed/
+*.jsonl
+!tests/fixtures/*.jsonl
+
+# model weights and adapters — the PC phase produces these, they never come back here
+*.bin
+*.safetensors
+*.gguf
+*.pt
+*.pth
+checkpoints/
+adapters/
+
+# eval outputs from real runs (stub outputs under tests/ are committed)
+runs/
+
+# macOS
+.DS_Store
+
+# editors
+.idea/
+.vscode/
