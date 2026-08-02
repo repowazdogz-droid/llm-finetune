@@ -156,4 +156,5 @@ Three things B1/B2 should carry forward rather than rediscover:
 ## Licence
 
 MIT for the code — see [LICENSE](LICENSE). GSM8K is not redistributed here; it is
-downloaded from OpenAI's repository under its own MIT licence.
+downloaded from OpenAI's repository under its own MIT licence, as recorded in
+[NOTICE](NOTICE) and [DATA.md](DATA.md).

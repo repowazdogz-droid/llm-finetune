@@ -1,0 +1,14 @@
+THIRD-PARTY DATA NOTICE
+=======================
+
+The MIT licence in LICENSE covers the code in this repository.
+
+It does not cover GSM8K, which this repository downloads but does not
+redistribute. GSM8K is released by OpenAI under the MIT License
+(Copyright (c) 2021 OpenAI) at:
+
+    https://github.com/openai/grade-school-math
+
+`data/download.sh` writes a copy of that licence to
+`data/raw/LICENSE.gsm8k` alongside the downloaded files, so the terms
+travel with the data. Full provenance is in DATA.md.

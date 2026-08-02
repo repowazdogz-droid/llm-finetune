@@ -19,12 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
----
-
-NOTE ON THE DATASET
-
-This licence covers the code in this repository. It does not cover GSM8K,
-which this repository downloads but does not redistribute. GSM8K is released
-by OpenAI under the MIT License (Copyright (c) 2021 OpenAI) at
-https://github.com/openai/grade-school-math. See DATA.md for full provenance.
